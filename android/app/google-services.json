@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "283740870525",
+    "project_id": "expirecheck-40e67",
+    "storage_bucket": "expirecheck-40e67.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283740870525:android:482853bc657ce35b465e14",
+        "android_client_info": {
+          "package_name": "com.example.expire_check"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9wlV7v3JuSe6eVNCfk8offErLB0gydHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
