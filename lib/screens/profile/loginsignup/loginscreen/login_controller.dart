@@ -45,11 +45,11 @@ class LoginController extends GetxController {
       Get.snackbar(
         "Login Failed",
         message,
-        backgroundColor: Colors.grey[800],
-        colorText: Colors.white,
+        backgroundColor: Colors.grey,
+        colorText: Colors.black87,
         snackPosition: SnackPosition.BOTTOM,
         margin: EdgeInsets.all(12),
-        borderRadius: 8,
+        borderRadius: 10,
         duration: Duration(seconds: 2),
       );
     } catch (e) {
@@ -57,11 +57,11 @@ class LoginController extends GetxController {
       Get.snackbar(
         "Error",
         "Something went wrong. Please try again.",
-        backgroundColor: Colors.grey[800],
-        colorText: Colors.white,
+        backgroundColor: Colors.grey,
+        colorText: Colors.black87,
         snackPosition: SnackPosition.BOTTOM,
         margin: EdgeInsets.all(12),
-        borderRadius: 8,
+        borderRadius: 10,
         duration: Duration(seconds: 2),
       );
     }

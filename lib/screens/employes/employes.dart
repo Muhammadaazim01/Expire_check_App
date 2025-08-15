@@ -125,8 +125,12 @@ class _EmployeesPageState extends State<EmployeesPage> {
                                 Get.snackbar(
                                   'Error',
                                   'Please fill all fields',
-                                  snackPosition: SnackPosition.BOTTOM,
                                   backgroundColor: Colors.grey,
+                                  colorText: Colors.black87,
+                                  snackPosition: SnackPosition.BOTTOM,
+                                  margin: EdgeInsets.all(12),
+                                  borderRadius: 10,
+                                  duration: Duration(seconds: 2),
                                 );
                                 return;
                               }

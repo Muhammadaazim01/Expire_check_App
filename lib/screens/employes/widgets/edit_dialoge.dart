@@ -323,7 +323,12 @@ class _EditDialogState extends State<EditDialog> {
         Get.snackbar(
           "Error",
           "Please fill all fields",
+          backgroundColor: Colors.grey,
+          colorText: Colors.black87,
           snackPosition: SnackPosition.BOTTOM,
+          margin: EdgeInsets.all(12),
+          borderRadius: 10,
+          duration: Duration(seconds: 2),
         );
         return;
       }
@@ -333,7 +338,12 @@ class _EditDialogState extends State<EditDialog> {
       Get.snackbar(
         "Error",
         "Please select an expiry date",
+        backgroundColor: Colors.grey,
+        colorText: Colors.black87,
         snackPosition: SnackPosition.BOTTOM,
+        margin: EdgeInsets.all(12),
+        borderRadius: 10,
+        duration: Duration(seconds: 2),
       );
       return;
     }

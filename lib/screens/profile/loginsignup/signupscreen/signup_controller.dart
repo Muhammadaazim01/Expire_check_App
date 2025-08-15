@@ -40,11 +40,11 @@ class SignUpController extends GetxController {
       Get.snackbar(
         "Success",
         "Account created successfully!",
-        backgroundColor: Colors.grey[800],
-        colorText: Colors.white,
+        backgroundColor: Colors.grey,
+        colorText: Colors.black87,
         snackPosition: SnackPosition.BOTTOM,
         margin: EdgeInsets.all(12),
-        borderRadius: 8,
+        borderRadius: 10,
         duration: Duration(seconds: 2),
       );
 
@@ -53,12 +53,12 @@ class SignUpController extends GetxController {
       Get.snackbar(
         "Error",
         e.toString(),
-        backgroundColor: Colors.red[600],
-        colorText: Colors.white,
+        backgroundColor: Colors.grey,
+        colorText: Colors.black87,
         snackPosition: SnackPosition.BOTTOM,
         margin: EdgeInsets.all(12),
-        borderRadius: 8,
-        duration: Duration(seconds: 3),
+        borderRadius: 10,
+        duration: Duration(seconds: 2),
       );
     }
   }
@@ -85,11 +85,11 @@ class SignUpController extends GetxController {
       Get.snackbar(
         "Success",
         "Logged out successfully!",
-        backgroundColor: Colors.grey[800],
-        colorText: Colors.white,
+        backgroundColor: Colors.grey,
+        colorText: Colors.black87,
         snackPosition: SnackPosition.BOTTOM,
         margin: EdgeInsets.all(12),
-        borderRadius: 8,
+        borderRadius: 10,
         duration: Duration(seconds: 2),
       );
     } catch (e) {
@@ -98,11 +98,11 @@ class SignUpController extends GetxController {
       Get.snackbar(
         "Error",
         "Logout failed. Please try again.",
-        backgroundColor: Colors.red[600],
-        colorText: Colors.white,
+        backgroundColor: Colors.grey,
+        colorText: Colors.black87,
         snackPosition: SnackPosition.BOTTOM,
         margin: EdgeInsets.all(12),
-        borderRadius: 8,
+        borderRadius: 10,
         duration: Duration(seconds: 2),
       );
     }

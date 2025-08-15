@@ -243,7 +243,12 @@ class _AddDialogState extends State<AddDialog> {
         Get.snackbar(
           "Error",
           "Please fill all fields",
+          backgroundColor: Colors.grey,
+          colorText: Colors.black87,
           snackPosition: SnackPosition.BOTTOM,
+          margin: EdgeInsets.all(12),
+          borderRadius: 10,
+          duration: Duration(seconds: 2),
         );
         return;
       }
@@ -253,7 +258,12 @@ class _AddDialogState extends State<AddDialog> {
       Get.snackbar(
         "Error",
         "Please select expiry date",
+        backgroundColor: Colors.grey,
+        colorText: Colors.black87,
         snackPosition: SnackPosition.BOTTOM,
+        margin: EdgeInsets.all(12),
+        borderRadius: 10,
+        duration: Duration(seconds: 2),
       );
       return;
     }
@@ -276,7 +286,12 @@ class _AddDialogState extends State<AddDialog> {
       Get.snackbar(
         "Error",
         "Something went wrong: $e",
+        backgroundColor: Colors.grey,
+        colorText: Colors.black87,
         snackPosition: SnackPosition.BOTTOM,
+        margin: EdgeInsets.all(12),
+        borderRadius: 10,
+        duration: Duration(seconds: 2),
       );
     }
   }

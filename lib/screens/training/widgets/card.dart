@@ -195,13 +195,23 @@ class TrainingCard extends StatelessWidget {
                                       Get.snackbar(
                                         'Success',
                                         'Training deleted',
+                                        backgroundColor: Colors.grey,
+                                        colorText: Colors.black87,
                                         snackPosition: SnackPosition.BOTTOM,
+                                        margin: EdgeInsets.all(12),
+                                        borderRadius: 10,
+                                        duration: Duration(seconds: 2),
                                       );
                                     } catch (e) {
                                       Get.snackbar(
                                         'Error',
                                         'Failed to delete training: $e',
+                                        backgroundColor: Colors.grey,
+                                        colorText: Colors.black87,
                                         snackPosition: SnackPosition.BOTTOM,
+                                        margin: EdgeInsets.all(12),
+                                        borderRadius: 10,
+                                        duration: Duration(seconds: 2),
                                       );
                                     }
                                   },
