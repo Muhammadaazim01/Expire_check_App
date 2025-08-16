@@ -32,7 +32,9 @@ class _SplashScreenState extends State<SplashScreen> {
             // 🔹 Beech wali image
             Image.asset(
               "assets/images/splash.png", // apni image ka path yahan daalo
-              height: 120,
+              height: 150,
+              width: 150,
+              fit: BoxFit.cover,
             ),
 
             SizedBox(height: 20),
