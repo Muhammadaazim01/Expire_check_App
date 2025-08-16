@@ -5,7 +5,7 @@ import 'package:expire_check/screens/employes/controllers/controllers.dart';
 import 'package:expire_check/screens/profile/controller/notifiction_controller.dart';
 import 'package:expire_check/screens/profile/loginsignup/loginscreen/login_controller.dart';
 import 'package:expire_check/screens/profile/loginsignup/signupscreen/signup_controller.dart';
-import 'package:expire_check/screens/profile/loginsignup/signupscreen/signup_screen.dart';
+import 'package:expire_check/screens/splash_screen.dart';
 import 'package:expire_check/screens/training/controllers/training_controller.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
@@ -43,6 +43,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(debugShowCheckedModeBanner: false, home: SignIn());
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: SplashScreen(),
+    );
   }
 }
